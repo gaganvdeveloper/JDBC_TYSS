@@ -9,9 +9,7 @@ public class String_URL_Argument {
 	public static void main(String[] args) {
 		String url = "jdbc:postgresql://localhost:5432/shop?user=postgres&password=root";
 		String sql = "insert into products values(11,'One_Plus_031TV',25300,4)";
-
 		try {
-
 //			Step 1
 			Class.forName("org.postgresql.Driver");
 
