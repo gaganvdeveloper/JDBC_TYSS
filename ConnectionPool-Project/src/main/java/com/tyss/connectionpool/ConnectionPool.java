@@ -7,7 +7,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ConnectionPool {
-
 	private static List<Connection> connectionsPool = new ArrayList<Connection>();
 	private static String URL = "jdbc:postgresql://localhost:5432/school";
 	private static String DRIVER = "org.postgresql.Driver";
@@ -54,7 +53,5 @@ public class ConnectionPool {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
-
 	}
-
 }
